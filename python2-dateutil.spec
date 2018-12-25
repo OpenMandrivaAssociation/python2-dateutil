@@ -2,11 +2,11 @@
 
 Summary:	Provides powerful extensions to the standard datetime module
 Name:		python2-dateutil
-Version:	1.5
-Release:	2
+Version:	2.7.5
+Release:	1
 License:	Python
 Group:		Development/Python
-Url:		http://labix.org/python-dateutil
+Url:		https://dateutil.readthedocs.io/en/stable
 Source0:	http://pypi.python.org/packages/source/p/python-dateutil/python-%{fname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	python2-setuptools
