@@ -10,7 +10,8 @@ Url:		https://dateutil.readthedocs.io/en/stable
 Source0:	http://pypi.python.org/packages/source/p/python-dateutil/python-%{fname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	python2-setuptools
-BuildRequires:	pkgconfig(python)
+BuildRequires:	python2-pkg-resources
+BuildRequires:	pkgconfig(python2)
 Requires:	python2
 
 %description
